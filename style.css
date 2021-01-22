@@ -10,6 +10,8 @@ a{
     text-decoration: none;
 
 }
+button{cursor: pointer;
+}
 section{
     width: 100%;
     height: 95vh;
@@ -80,11 +82,11 @@ nav ul li a{
     .hacker{
         height: 400px;
         position: absolute;
-        bottom:150px;
+        bottom:140px;
         left:70%;
         transform: translatex(-20%);
         border-radius: 100px;
-        box-shadow: 2px 2px 2px 3px rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 2px 3px rgba(245, 99, 99, 0.5);
     }
     .hacker-quote{
         height: 10px;
@@ -111,7 +113,7 @@ nav ul li a{
         height:330px;
         background-color:yellow ;
         border-radius: 20px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        box-shadow: 2px 2px 2px rgba(231, 14, 14, 0.9);
         display: flex;
         margin:7px auto auto auto;
         position: relative;
@@ -133,3 +135,86 @@ nav ul li a{
         padding: 30px 30px;
         font-weight: 400;
     }
+
+    .services{
+        height: 600px;
+        background-color: rgb(238, 228, 83);
+        padding:2% 10% 0% 10%;
+        
+    }
+    .service-text p:nth-child(1){
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 0px;
+    }
+    .service-text p:nth-child(2){
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 5px;
+    }
+    .service-text p:nth-child(3){
+        font-weight: ;
+        font-size: 20px;
+        
+    }
+    .service-text{
+        width: 500px;
+        margin: 50px 0px;
+    }
+    .box1,.box2,.box3{
+        width: 300px;
+        height:320px;
+        background-repeat: no-repeat;
+        background-size:cover ;
+        box-shadow: 2px 2px 12px 5px rgba(226, 18, 18, 0.5);
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .box1{background:linear-gradient(rgb(124, 124, 41),rgb(219, 124, 140));}
+    .box2{background:linear-gradient(rgb(124, 124, 41),rgb(219, 124, 140));}
+
+    .box3{background:linear-gradient(rgb(124, 124, 41),rgb(219, 124, 140));}
+
+    .box1 span,.box2 span,.box3 span{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: bold;
+        background-color: white;
+    }
+    .box1 p:nth-child(2),
+    .box2 p:nth-child(2),
+    .box3 p:nth-child(2){font-weight: bold;
+        text-decoration: underline;
+
+
+    }
+    .box1 p:nth-child(3),
+    .box2 p:nth-child(3),
+    .box3 p:nth-child(3){font-weight: bold;
+
+
+    }
+
+    .box1 button,
+    .box2 button,
+    .box3 button{
+       width: 100px;
+       height: 30px;
+       background-color: rgb(233, 229, 19);
+       border-radius: 10px;
+
+   }
+

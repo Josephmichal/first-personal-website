@@ -5,6 +5,7 @@ body{
 }
 ul{
     list-style:none;
+    
 }
 a{
     text-decoration: none;
@@ -24,10 +25,13 @@ nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    width: 90%;
     height: 60px;
     background-color: #f3e632;
     box-shadow: 2px 2px 12px rgba(14, 0, 0, 0.3);
     padding: 0px 5%;
+    position: fixed;
+    z-index: 1;
 }
 nav ul{
     display: flex;
@@ -218,3 +222,71 @@ nav ul li a{
 
    }
 
+   .contactme{
+       width: 100%;
+       height: 280px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       border-style:outset;
+   }
+
+   .contactme p{
+       color: rgb(22, 4, 2);
+       font-size: 30px;
+       font-weight: bold;
+       border-bottom: 2px solid black;
+   }
+   .contactme button{
+       width:200px;
+       height: 40px;
+       background:linear-gradient(white);
+       outline: none;
+       border:none;
+       font-size:14px ;
+       font-weight: bold;
+   }
+
+   footer{
+       height: 300px;
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       position: relative;
+   }
+
+   footer p:nth-child(1){
+       font-size: 30px;
+       font-weight: bold;
+       line-height: 10px;
+   }
+   footer p:nth-child(2){
+       font-size: 16px;
+       width: 600px;
+       text-align: center;
+   }
+
+   .icons a{
+       width: 40px;
+       height: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color:wheat;
+       margin: 20px 10px;
+       border-radius: 50%;
+
+   }
+   .icons{
+       display: flex;
+   }
+
+   .copyright{
+       font-size: 20px;
+       position: absolute;
+       left:50%;
+       bottom:1px;
+       transform: translatex(-50%);
+   }
